@@ -1,7 +1,7 @@
 # Daniel Monahan — danielkm-ee
 
 **Electrical Engineer · RF & Analog Hardware · Embedded Systems**  
-BS/MS Electrical Engineering & Physics @ Portland State University · GPA 3.89  
+BS/MS Electrical Engineering & Physics @ Portland State University · GPA 3.81  
 Portland, OR · [linkedin.com/in/danielkm-ee](https://linkedin.com/in/danielkm-ee) · dannym1432@gmail.com
 
 ---
