@@ -60,7 +60,7 @@ Spiking neural network (SNN) research from my time at PSU's Teuscher Lab. Traini
 
 ---
 
-### 📡 Keysight ADS on Linux &nbsp;·&nbsp; [`install-ads-linux-demo`](https://github.com/danielkm-ee/install-ads-linux-demo)
+### Keysight ADS on Linux &nbsp;·&nbsp; [`install-ads-linux-demo`](https://github.com/danielkm-ee/install-ads-linux-demo)
 
 > Step-by-step guide for running ADS on Linux — because it shouldn't be this hard
 
