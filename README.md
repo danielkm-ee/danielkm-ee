@@ -22,7 +22,7 @@ Currently finishing a combined BS/MS at PSU and looking for roles in **RF/analog
 
 Led a five-person team to design and build a LoRa-based wireless DAQ node from concept to validated hardware in under 3 months. Responsible for hardware architecture, component selection, full PCB layout, board bring-up, and rework. The board transmits data from I2C devices or readings from the on-board ADC over 868–916 MHz to a base station at a 1km transmission range before any additional matching is added at the antenna.
 
-**Hardware:** STM32 MCU (Seeed Studios Wio-E5) · 16-bit ADC · I2C/UART expansion · MicroSD · USB-C with Li-ion charging · 50-Ohm connector for a LoRa Antenna
+**Hardware:** STM32 MCU (Seeed Studios Wio-E5) · 16-bit ADC · I2C/UART expansion · MicroSD · USB-C with Li-ion charging · 50-Ohm connector for a LoRa Antenna  
 **Stack:** C · STM32 HAL · KiCad · GNU/Linux
 
 ---
@@ -33,7 +33,7 @@ Led a five-person team to design and build a LoRa-based wireless DAQ node from c
 
 Bluntly; 'an excuse to learn about sdr'. This is a personal project of mine started with the goals of managing IRR of I/Q signals, link budget, NF cascades, and DSP on a deeper level. Essentially to prove or bolster my abilities as a *real RF engineer*™. I have vendor s2p parameters selected for the 144MHz RF prefilter, LC branchline divider, LC wilkinson divider, and supports for the PGA-103+ in simulation, currently laying out test boards and designing my frequency conversion and baseband stages.
 
-**Hardware:** STM32F4 · MC1496 Mixer · Si5351 Frequency Synth
+**Hardware:** STM32F4 · MC1496 Mixer · Si5351 Frequency Synth  
 **Tools:** KiCad · SPICE · Qucs-S · OpenEMS · GnuRadio or liquid-dsp (tbd)
 
 ---
