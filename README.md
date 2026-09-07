@@ -64,7 +64,9 @@ Spiking neural network (SNN) research from my time at PSU's Teuscher Lab. Traini
 
 > Step-by-step guide for running ADS on Linux
 
-Practical walkthrough for getting Keysight ADS running on a Linux machine, since I found the official instructions a bit more IT-oriented. Wrote this up while my classmates and I struggling through this install as part of our Microwave Circuit Design courses. It supplements the official licensing setup instructions and provides scripts and instructions on launching ADS as easily as any other desktop app -- for those who are less Linux-savvy or experienced users who could benefit from my `.desktop` and ADS launch script.
+Practical walkthrough for getting Keysight ADS running on a Linux machine, since I found the official instructions a bit more IT-oriented. Wrote this up while my classmates and I struggling through this install as part of our Microwave Circuit Design courses.  
+
+It supplements the official licensing setup instructions and provides scripts and instructions on launching ADS as easily as any other desktop app -- for those who are less Linux-savvy or experienced users who could benefit from my `.desktop` and ADS launch script.
 
 ---
 
