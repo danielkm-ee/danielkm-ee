@@ -6,9 +6,9 @@ Portland, OR · [linkedin.com/in/danielkm-ee](https://linkedin.com/in/danielkm-e
 
 ---
 
-I design hardware — from schematic to layout to bench bring-up. My focus is RF and mixed-signal PCB design, embedded firmware, and analog systems. I've done graduate-level research in neuromorphic machine learning and I care about the math and physics underneath the work, not just the tools on top.
+Could be described as an EE who likes to code. Always love a challenge and thrive on projects that bring a hazy hardware idea to a real, functioning, wave-shaping hardware solution. My desin process involves RF circuit design and simulations, layout, testing, validation, and rework; with a sprinkle of firmware development throughout -- especially while I wait for fabrication. Interested in projects involving audio, communications, antennas, and DSP; or any embedded design.
 
-Currently finishing a combined BS/MS at PSU and looking for roles in **RF/analog hardware design**, **embedded systems**, or **signal integrity** — particularly in defense, aerospace, semiconductor, or deep-tech environments.
+Currently finishing a combined BS/MS at PSU and looking for roles in **RF/analog hardware design**, **embedded systems**, or **signal integrity** — particularly in aerospace, semi-conductor, deep-tech or defense environments. Working towards skills in RFIC and ASIC design.
 
 ---
 
@@ -31,7 +31,7 @@ Led a five-person team to design and build a LoRa-based wireless DAQ node from c
 
 > 2m homodyne phasing receiver for SSB and CW — active design project
 
-Bluntly; 'an excuse to learn about sdr'. This is a personal project of mine started with the goals of managing IRR of I/Q signals, link budget, NF cascades, and DSP on a deeper level. Essentially to prove or bolster my abilities as a _real RF engineer_™. I have vendor s2p parameters selected for the 144MHz RF prefilter, LC branchline divider, LC wilkinson divider, and supports for the PGA-103+ in simulation, currently laying out test boards and designing my frequency conversion and baseband stages.
+Bluntly; 'an excuse to learn about sdr'. This is a personal project of mine started with the goals of managing IRR of I/Q signals, link budget, NF cascades, and DSP on a deeper level. Essentially to prove or bolster my abilities as a *real RF engineer*™. I have vendor s2p parameters selected for the 144MHz RF prefilter, LC branchline divider, LC wilkinson divider, and supports for the PGA-103+ in simulation, currently laying out test boards and designing my frequency conversion and baseband stages.
 
 **Hardware:** STM32F4 · MC1496 Mixer · Si5351 Frequency Synth
 **Tools:** KiCad · SPICE · Qucs-S · OpenEMS · GnuRadio or liquid-dsp (tbd)
