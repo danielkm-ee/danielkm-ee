@@ -2,7 +2,7 @@
 
 **Electrical Engineer · RF & Analog Hardware · Embedded Systems**  
 BS/MS Electrical Engineering & Physics @ Portland State University · GPA 3.81  
-Portland, OR · [linkedin.com/in/danielkm-ee](https://linkedin.com/in/danielkm-ee) · dannym1432@gmail.com
+Portland, OR · [linkedin.com/in/danielkm-ee](https://linkedin.com/in/danielkm-ee) · danielkm.rfeng@gmail.com
 
 ---
 
@@ -20,21 +20,21 @@ Currently finishing a combined BS/MS at PSU and looking for roles in **RF/analog
 
 ![LoRa DAQ Node](https://raw.githubusercontent.com/danielkm-ee/lora_daq_module/main/docs/lora_daq_module_final_top.png)
 
-Led a four-person team to design and build a LoRa-based wireless DAQ node from concept to validated hardware. Responsible for hardware architecture, component selection, full PCB layout, board bring-up, and rework. The board transmits I2C sensor data over 868–916 MHz to a base station at ranges exceeding 1 km.
+Led a five-person team to design and build a LoRa-based wireless DAQ node from concept to validated hardware in under 3 months. Responsible for hardware architecture, component selection, full PCB layout, board bring-up, and rework. The board transmits data from I2C devices or readings from the on-board ADC over 868–916 MHz to a base station at a 1km transmission range before any additional matching is added at the antenna.
 
-**Hardware:** STM32 MCU · 16-bit ADC · I2C/UART expansion · MicroSD · USB-C with Li-ion charging · SMA RF interface  
+**Hardware:** STM32 MCU (Seeed Studios Wio-E5) · 16-bit ADC · I2C/UART expansion · MicroSD · USB-C with Li-ion charging · 50-Ohm connector for a LoRa Antenna
 **Stack:** C · STM32 HAL · KiCad · GNU/Linux
 
 ---
 
-### DRA818V Walkie-Talkie &nbsp;·&nbsp; [`dra818v-walkie-talkie`](https://github.com/danielkm-ee/dra818v-walkie-talkie) &nbsp;*(WIP)*
+### Direct Conversion SDR &nbsp;·&nbsp; [`direct-conversion-sdr`](https://github.com/danielkm-ee/direct-conversion-sdr) &nbsp;*(WIP)*
 
-> Compact VHF/UHF handheld transceiver — active design project
+> 2m homodyne phasing receiver for SSB and CW — active design project
 
-Hand-held transceiver design built around the Dorji DRA818V VHF/UHF module. Currently working through component selection and design specifications — active areas include audio front-end design, PTT logic, power management, and antenna matching. A project I'm using to deepen my applied RF design skills beyond coursework.
+Bluntly; 'an excuse to learn about sdr'. This is a personal project of mine started with the goals of managing IRR of I/Q signals, link budget, NF cascades, and DSP on a deeper level. Essentially to prove or bolster my abilities as a _real RF engineer_™. I have vendor s2p parameters selected for the 144MHz RF prefilter, LC branchline divider, LC wilkinson divider, and supports for the PGA-103+ in simulation, currently laying out test boards and designing my frequency conversion and baseband stages.
 
-**Modules:** DRA818V transceiver · audio amp · PTT circuit · LiPo power  
-**Tools:** KiCad · SPICE · Keysight ADS
+**Hardware:** STM32F4 · MC1496 Mixer · Si5351 Frequency Synth
+**Tools:** KiCad · SPICE · Qucs-S · OpenEMS · GnuRadio or liquid-dsp (tbd)
 
 ---
 
@@ -44,7 +44,7 @@ Hand-held transceiver design built around the Dorji DRA818V VHF/UHF module. Curr
 
 ![LiPo Charger PCB](https://raw.githubusercontent.com/danielkm-ee/usbc_lipo_charger/main/usbc_lipo_charger.png)
 
-Single-cell lithium-ion battery charger PCB — a focused exercise in analog power circuit design, component selection for charging profiles, and PCB layout for thermal management. Starting point for the power architecture used in later projects.
+Single-cell lithium-ion battery charger PCB — an early exercise in power circuit design in KiCad, component selections for charging profiles, and PCB layout for thermal management. Serves as a reference design for other projects.
 
 **Tools:** KiCad · LTspice
 
@@ -62,9 +62,9 @@ Spiking neural network (SNN) research from my time at PSU's Teuscher Lab. Traini
 
 ### Keysight ADS on Linux &nbsp;·&nbsp; [`install-ads-linux-demo`](https://github.com/danielkm-ee/install-ads-linux-demo)
 
-> Step-by-step guide for running ADS on Linux — because it shouldn't be this hard
+> Step-by-step guide for running ADS on Linux
 
-Practical walkthrough for getting Keysight ADS running on a Linux machine. Written because I couldn't find a clean guide when I needed one. If you're an RF engineer trying to do the same thing, this is for you.
+Practical walkthrough for getting Keysight ADS running on a Linux machine, since I found the official instructions a bit more IT-oriented. Wrote this up while my classmates and I struggling through this install as part of our Microwave Circuit Design courses. It supplements the official licensing setup instructions and provides scripts and instructions on launching ADS as easily as any other desktop app -- for those who are less Linux-savvy or experienced users who could benefit from my `.desktop` and ADS launch script.
 
 ---
 
