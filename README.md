@@ -16,7 +16,7 @@ Currently finishing a combined BS/MS at PSU and looking for roles in **RF/analog
 
 ### LoRa DAQ Node &nbsp;·&nbsp; [`lora_daq_module`](https://github.com/danielkm-ee/lora_daq_module)
 
-> Wireless data acquisition node with 1 km sensor transmission range
+> Wireless data acquisition node with 1 km transmission range
 
 ![LoRa DAQ Node](https://raw.githubusercontent.com/danielkm-ee/lora_daq_module/main/docs/lora_daq_module_final_top.png)
 
