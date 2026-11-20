@@ -6,7 +6,7 @@ Portland, OR · [linkedin.com/in/danielkm-ee](https://linkedin.com/in/danielkm-e
 
 ---
 
-Could be described as an EE who likes to code. Always love a challenge and thrive on projects that bring a hazy hardware idea to a real, functioning, wave-shaping hardware solution. My design process involves RF circuit design and simulations, layout, testing, validation, and rework; and passionate about Firmware development. My experience spans Microwave Circuit Design in ADS, testing and verification on VNAs and spectrum analyzers, bare-metal programming on embedded platforms such as ESP32, STM32, RP2040, and nRF24. Interested in projects involving audio, communications, antennas, and DSP; or any embedded design.
+Could be described as an EE who likes to code. Always love a challenge and thrive on projects that bring a complex system or fresh idea into an organized and flexible hardware solution. My design process involves RF circuit design and simulations, layout, testing, validation, and rework; with firmware shaping up alongside the hardware incrementally. My experience spans Microwave Circuit Design in ADS, testing and verification on VNAs and spectrum analyzers, and bare-metal programming on embedded platforms such as ESP32, STM32, RP2040, and nRF24. Interested in projects involving audio, communications, antennas, and DSP; or any embedded design.
 
 Currently finishing a combined BS/MS at PSU and looking for roles in **RF/analog hardware design**, **embedded systems**, or **signal integrity** — particularly in aerospace, semi-conductor, deep-tech or defense environments. Working towards skills in RFIC and ASIC design.
 
